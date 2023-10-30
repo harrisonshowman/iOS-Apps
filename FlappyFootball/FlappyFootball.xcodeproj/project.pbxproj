@@ -18,6 +18,9 @@
 		C68BAE452AE2F90E00229003 /* FlappyFootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BAE442AE2F90E00229003 /* FlappyFootballTests.swift */; };
 		C68BAE4F2AE2F90E00229003 /* FlappyFootballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BAE4E2AE2F90E00229003 /* FlappyFootballUITests.swift */; };
 		C68BAE512AE2F90E00229003 /* FlappyFootballUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BAE502AE2F90E00229003 /* FlappyFootballUITestsLaunchTests.swift */; };
+		C68BAE602AEC7FAC00229003 /* game_over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C68BAE5F2AEC7FAC00229003 /* game_over.ttf */; };
+		C68BAE622AEC84A700229003 /* game_over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C68BAE5F2AEC7FAC00229003 /* game_over.ttf */; };
+		C68BAE632AEC84A800229003 /* game_over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C68BAE5F2AEC7FAC00229003 /* game_over.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,8 @@
 		C68BAE4A2AE2F90E00229003 /* FlappyFootballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyFootballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68BAE4E2AE2F90E00229003 /* FlappyFootballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyFootballUITests.swift; sourceTree = "<group>"; };
 		C68BAE502AE2F90E00229003 /* FlappyFootballUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyFootballUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C68BAE5F2AEC7FAC00229003 /* game_over.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = game_over.ttf; sourceTree = "<group>"; };
+		C68BAE612AEC828A00229003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,8 @@
 		C68BAE292AE2F90D00229003 /* FlappyFootball */ = {
 			isa = PBXGroup;
 			children = (
+				C68BAE612AEC828A00229003 /* Info.plist */,
+				C68BAE5F2AEC7FAC00229003 /* game_over.ttf */,
 				C68BAE2A2AE2F90D00229003 /* AppDelegate.swift */,
 				C68BAE2C2AE2F90D00229003 /* GameScene.sks */,
 				C68BAE2E2AE2F90D00229003 /* Actions.sks */,
@@ -235,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68BAE602AEC7FAC00229003 /* game_over.ttf in Resources */,
 				C68BAE362AE2F90D00229003 /* Main.storyboard in Resources */,
 				C68BAE2D2AE2F90D00229003 /* GameScene.sks in Resources */,
 				C68BAE382AE2F90E00229003 /* Assets.xcassets in Resources */,
@@ -247,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68BAE622AEC84A700229003 /* game_over.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68BAE632AEC84A800229003 /* game_over.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlappyFootball/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -471,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlappyFootball/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
